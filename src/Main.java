@@ -1,3 +1,5 @@
+package src;
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -14,7 +16,7 @@ public class Main {
         while (opcao != 6) {
             System.out.println("----- Gestão Financeira 2.0 -----");
             System.out.println("1- Adicionar Gastos");
-            System.out.println("2- Adicionar Ganho");
+            System.out.println("2- Adicionar src.Ganho");
             System.out.println("3- Relatório de Gastos");
             System.out.println("4- Relatório de Ganhos");
             System.out.println("5- Relatório Mensal");
@@ -49,5 +51,5 @@ public class Main {
             }
         }
     }
-        //TesteArquivo.criarArquivo("C:\\Users\\Richard Melo\\Documents\\Faculdade\\arquivo.txt");
+        //src.TesteArquivo.criarArquivo("C:\\Users\\Richard Melo\\Documents\\Faculdade\\arquivo.txt");
 }
