@@ -4,10 +4,10 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 abstract class Orcamento {
-    private String Nome;
-    private String Descricao;
-    private LocalDate Data;
-    private double Valor;
+    protected String Nome;
+    protected String Descricao;
+    protected LocalDate Data;
+    protected double Valor;
 
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
     public void setOrcamento(String nome, String descricao, LocalDate data, double valor){
