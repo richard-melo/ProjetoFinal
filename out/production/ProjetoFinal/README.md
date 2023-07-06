@@ -1,5 +1,5 @@
-1 - Adicionando classe Main e comentando códigos do programa antigo
+1 - Adicionando classe src.Main e comentando códigos do programa antigo
 
-2 - Adicionando classe Orcamento para utilizar de base para gasto e ganho
+2 - Adicionando classe src.Orcamento para utilizar de base para gasto e ganho
 
-3 - Adicionando classes Gasto e Ganho
+3 - Adicionando classes src.Gasto e src.Ganho
