@@ -1,8 +1,9 @@
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         //AdicionaGanho aGanho = new AdicionaGanho();
         //AdicionaGasto aGasto = new AdicionaGasto();
         int opcao = 0;
@@ -48,4 +49,5 @@ public class Main {
             }
         }
     }
+        //TesteArquivo.criarArquivo("C:\\Users\\Richard Melo\\Documents\\Faculdade\\arquivo.txt");
 }
