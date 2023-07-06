@@ -1,6 +1,7 @@
 package src;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -11,8 +12,8 @@ public class Main {
 
         while (opcao != 6) {
             System.out.println("----- Gestão Financeira 2.0 -----");
-            System.out.println("1- Adicionar Gastos");
-            System.out.println("2- Adicionar src.Ganho");
+            System.out.println("1- Adicionar Gasto");
+            System.out.println("2- Adicionar Ganho");
             System.out.println("3- Relatório de Gastos");
             System.out.println("4- Relatório de Ganhos");
             System.out.println("5- Relatório Mensal");
@@ -22,10 +23,10 @@ public class Main {
 
             switch (opcao) {
                 case 1:
-                    Adiciona adicionaGasto = new Adiciona("gastos");
+                    Adiciona adicionaGasto = new Adiciona("gasto");
                     break;
                 case 2:
-                    Adiciona adicionaGanho = new Adiciona("ganhos");
+                    Adiciona adicionaGanho = new Adiciona("ganho");
                     break;
                 // case 3: relatorioGastos();
                 // case 4: relatorioGanhos();

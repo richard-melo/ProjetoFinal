@@ -24,9 +24,9 @@ public class Adiciona extends Orcamento {
     protected void adicionarPorTipo(String Metodo) {
         String Tipo = "";
 
-        if (Metodo.equals("gasto")){
+        if (Metodo.equals("gasto")) {
             Tipo = definirTipoGasto();
-        } else if (Metodo.equals("ganho")){
+        } else if (Metodo.equals("ganho")) {
             Tipo = definirTipoGanho();
         } else {
             System.out.println("Tipo inválido");

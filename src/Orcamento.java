@@ -12,8 +12,8 @@ abstract class Orcamento {
     private LocalDate Data;
     private double Valor;
 
-    private List<Orcamento> gastos = new ArrayList<>();
-    private List<Orcamento> ganhos = new ArrayList<>();
+    protected List<Gasto> gastos = new ArrayList<>();
+    protected List<Ganho> ganhos = new ArrayList<>();
 
     public String getNome() {
         return Nome;
@@ -73,6 +73,10 @@ abstract class Orcamento {
         Gasto gasto = new Gasto();
         gasto.setOrcamento(nome, descricao, data, valor, pagamento);
         gastos.add(gasto);
+        //print the gasto list
+        for (Orcamento g : gastos) {
+            System.out.println(g);
+        }
     }
 
     public void adicionarGanho(String nome, String descricao, LocalDate data, double valor) {
